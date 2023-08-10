@@ -1,20 +1,20 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
+} */
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
+body{
+  background-color: #131415;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +23,71 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
+  
+/* .App-link {
   color: #61dafb;
+} */
+
+body{
+  background-color: #131415;
+  color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  color: aquamarine;
+}
+
+.main--container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input{
+  padding: 1em;
+  font-size: 10px;
+  background-color: #2b3031;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+}
+
+.btn-primary{
+  background-color: aqua;
+  color: #131415;
+}
+
+.form--comtainer{
+  margin: 2em 0;
+}
+
+.advocate__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3em;
+}
+
+.advocate__preview__wrapper{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  border: 2px solid aquamarine;
+}
+
+.advocate__preview__header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.advocate__preview__image{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border: 1px solid aquamarine; 
+}
+
+.bio__preview{
+  display: block;
+  margin: 1em 0;
+
 }
